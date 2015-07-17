@@ -30,7 +30,9 @@ def post_edit(request, pk):
 		form = PostForm(request.POST, instance=post)
 		if form.is_valid():
 			post = form.save(commit=False)
-			post.author = request.user
+			# Versione ok in locale 
+			# post.author = request.user
+			post.author = get_user(request)
 			post.published_date = timezone.now()
 			post.save()
 			return redirect('blog.views.post_detail', pk=post.pk)
