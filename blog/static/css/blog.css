@@ -80,3 +80,10 @@ h1 {
 	bottom: 0px;
 	float: right;
 }
+
+.login {
+    float: right;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+}
