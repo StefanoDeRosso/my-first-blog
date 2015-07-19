@@ -1,5 +1,9 @@
 .page-header {
+<<<<<<< HEAD
     background-color: #FFB042;
+=======
+    background-color: #ff9400;
+>>>>>>> 1ba19e4801576fa1f8084db1db3deda0e41654ba
     margin-top: 0;
     padding: 20px 20px 20px 40px;
     margin-bottom: 0;
@@ -55,7 +59,11 @@ h1, h2, h3, h4 {
 }
 
 .post h1 a, .post h1 a:visited {
+<<<<<<< HEAD
     color: #303031;
+=======
+    color: #000000;
+>>>>>>> 1ba19e4801576fa1f8084db1db3deda0e41654ba
 }
 
 h1 {
